@@ -31,6 +31,19 @@ class BasePage:
             self.take_screenshot("wait_error.png")
             raise
 
+    def get_current_url(self):
+        """
+        Returns the current page URL.
+        """
+        try:
+            current_url = self.page.url
+            self.logger.info(f"Current URL: {current_url}")
+            return current_url
+
+        except Exception as e:
+            self.logger.error(f"Failed to get current URL. Error: {str(e)}")
+            raise Exception(f"Failed to get current URL: {str(e)}")
+
     def click_element(self, selector: str):
         try:
             self.page.wait_for_selector(selector, timeout=5000)

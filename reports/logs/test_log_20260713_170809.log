@@ -1,0 +1,2 @@
+2026-07-13 17:08:12 - [INFO] - baseclass.py:14 - Navigating to URL: https://devhealthcareui.futurismdemo.com/
+2026-07-13 17:08:16 - [INFO] - baseclass.py:39 - Clicked element: //p[normalize-space()='Professional Journey']/following::a[@href='/findjobs'][1]

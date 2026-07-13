@@ -1,0 +1,2 @@
+INFO     HomePage:baseclass.py:14 Navigating to URL: https://devhealthcareui.futurismdemo.com/
+INFO     BasePage:baseclass.py:39 Clicked element: //p[normalize-space()='Professional Journey']/following::a[@href='/findjobs'][1]

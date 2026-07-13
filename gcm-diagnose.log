@@ -1,0 +1,195 @@
+﻿Diagnose log at 2026-07-13T14:22:52Z
+
+AppPath: C:\Users\shubhamm\AppData\Local\Programs\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Users\shubhamm\AppData\Local\Programs\Git\mingw64\bin\
+Version: 2.7.0+d1dd8a4ded75a2b1faae653157ac1699609442ad
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 151 Stepping 2, GenuineIntel
+TMP=C:\Users\shubhamm\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+INTELLIJ_TERMINAL_COMMAND_BLOCKS_REWORKED=1
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+USERPROFILE=C:\Users\shubhamm
+PROCESSOR_REVISION=9702
+TEMP=C:\Users\shubhamm\AppData\Local\Temp
+EFC_11408_3789132940=1
+FPS_BROWSER_USER_PROFILE_STRING=Default
+LOGONSERVER=\\BNR-ADC01
+TERM=xterm
+EFC_11408_2775293581=1
+USERNAME=shubhamm
+SystemRoot=C:\WINDOWS
+GIT_EXEC_PATH=C:/Users/shubhamm/AppData/Local/Programs/Git/mingw64/libexec/git-core
+OS=Windows_NT
+PLINK_PROTOCOL=ssh
+USERDNSDOMAIN=FUTURISMTECHNOLOGIES.LOCAL
+EFC_11408_1592913036=1
+OneDrive=C:\Users\shubhamm\OneDrive
+FIG_TERM=1
+FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+ProgramData=C:\ProgramData
+LC_CTYPE=C.UTF-8
+HOMEPATH=\Users\shubhamm
+COMPUTERNAME=FTPLDT-26-01052
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+TERM_SESSION_ID=8e264ba5-d978-4478-b02f-5637d4efb8a1
+EFC_11408_1262719628=1
+TERMINAL_EMULATOR=JetBrains-JediTerm
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\WINDOWS
+GIT_TRACE2_PARENT_SID=d352153a-4705-481f-8b6e-4703efffe188
+NUMBER_OF_PROCESSORS=20
+EFC_11408_344590478=1
+PROCESS_LAUNCHED_BY_CW=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\WINDOWS\system32\cmd.exe
+HOME=C:\Users\shubhamm
+PSModulePath=C:\Users\shubhamm\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\PowerShell\Modules\
+TMPDIR=C:\Users\shubhamm\AppData\Local\Temp
+VIRTUAL_ENV_PROMPT=.venv
+APPDATA=C:\Users\shubhamm\AppData\Roaming
+USERDOMAIN=FUTURISMTECH
+PROCESSOR_LEVEL=6
+Path=C:/Users/shubhamm/AppData/Local/Programs/Git/mingw64/libexec/git-core;C:\Users\shubhamm\AppData\Local\Programs\Git\mingw64\bin;C:\Users\shubhamm\AppData\Local\Programs\Git\usr\bin;C:\Users\shubhamm\bin;C:\Users\shubhamm\PycharmProjects\ClinReady\.venv/Scripts;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-17\bin;C:\Users\shubhamm\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\shubhamm\AppData\Local\Programs\Python\Python312\;C:\Users\shubhamm\AppData\Local\Programs\Python\Launcher\;C:\Users\shubhamm\AppData\Local\Microsoft\WindowsApps;C:\Users\shubhamm\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\shubhamm\AppData\Local\Programs\Git\cmd;C:\Program Files (x86)\BrowserStackLocal\
+VIRTUAL_ENV=C:\Users\shubhamm\PycharmProjects\ClinReady\.venv
+LOCALAPPDATA=C:\Users\shubhamm\AppData\Local
+PROCESS_LAUNCHED_BY_Q=1
+PSExecutionPolicyPreference=Bypass
+USERDOMAIN_ROAMINGPROFILE=FUTURISMTECH
+EFC_11408_2283032206=1
+PUBLIC=C:\Users\Public
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\shubhamm\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\shubhamm\AppData\Local\Temp\4f50482788715fa5daa1041f'... OK
+Reading from temporary file 'C:\Users\shubhamm\AppData\Local\Temp\4f50482788715fa5daa1041f'... OK
+Deleting temporary file 'C:\Users\shubhamm\AppData\Local\Temp\4f50482788715fa5daa1041f'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\shubhamm
+UserDataDirectoryPath: C:\Users\shubhamm\.gcm
+GetCurrentDirectory(): C:\Users\shubhamm\PycharmProjects\ClinReady
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:51075/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.53.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/shubhamm/PycharmProjects/ClinReady/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	core.fscache=true
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	core.symlinks=false
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	pull.rebase=false
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	credential.helper=manager
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Users/shubhamm/AppData/Local/Programs/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/shubhamm/.gitconfig	user.name=Futurism21
+file:C:/Users/shubhamm/.gitconfig	user.email=shubhamm@futurismtechnologies.com
+file:C:/Users/shubhamm/.gitconfig	safe.directory=D:/Futurism_Backup/shubhamm/DEV-168/Futurism_Backup/FTPL_Automation Projects/AIPortal
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/Futurism21/ClinReady.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.master.remote=origin
+file:.git/config	branch.master.merge=refs/heads/master
+file:.git/config	branch.feature/login-tests.remote=origin
+file:.git/config	branch.feature/login-tests.merge=refs/heads/feature/login-tests
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: C:\Users\shubhamm\AppData\Local\.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: C:\Users\shubhamm\AppData\Local\.IdentityService\msal.cache
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
