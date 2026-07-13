@@ -1,0 +1,4 @@
+INFO     HomePage:baseclass.py:14 Navigating to URL: https://devhealthcareui.futurismdemo.com/
+INFO     BasePage:baseclass.py:52 Clicked element: //p[normalize-space()='Professional Journey']/following::a[@href='/findjobs'][1]
+INFO     BasePage:baseclass.py:40 Current URL: https://devhealthcareui.futurismdemo.com/findjobs
+INFO     Test_HomePage:test_home_page.py:22 Search Job link navigation verified successfully.
