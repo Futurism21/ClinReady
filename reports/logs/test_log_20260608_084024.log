@@ -1,4 +1,0 @@
-2026-06-08 08:40:28 - [INFO] - baseclass.py:14 - Navigating to URL: https://devhealthcareui.futurismdemo.com/
-2026-06-08 08:40:32 - [INFO] - baseclass.py:28 - Element //img[@alt = 'logo'] is visible on the page
-2026-06-08 08:40:32 - [INFO] - baseclass.py:81 - Element //img[@alt = 'logo'] visibility: True
-2026-06-08 08:40:32 - [INFO] - test_home_page.py:19 - Logo is successfully verified and visible

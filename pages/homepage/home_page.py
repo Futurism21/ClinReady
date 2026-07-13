@@ -13,6 +13,7 @@ class HomePage(BasePage):
         self.base_page_instance = BasePage(page)
 
         self.LOGO = "//img[@alt = 'logo']"
+        self.SEARCH_JOB= "//p[normalize-space()='Professional Journey']/following::a[@href='/findjobs'][1]"
 
     def logoCheck(self):
         try:
@@ -22,3 +23,16 @@ class HomePage(BasePage):
             self.page.screenshot(path="error_logo.png")
             print(f"❌ Logo validation failed: {str(e)}")
             raise
+
+    def verify_search_job(self):
+        try:
+            self.base_page_instance.click_element(self.SEARCH_JOB)
+
+            current_url = self.base_page_instance.get_current_url()
+
+            assert "/findjobs" in current_url, \
+                f"Expected '/findjobs' in URL but got {current_url}"
+
+        except Exception as e:
+            raise Exception(f"Failed to verify Search Job page: {e}")
+
