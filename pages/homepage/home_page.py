@@ -13,6 +13,8 @@ class HomePage(BasePage):
         self.base_page_instance = BasePage(page)
 
         self.LOGO = "//img[@alt = 'logo']"
+        self.SEARCH_JOB = "//p[normalize-space()='Professional Journey']/following::a[@href='/findjobs'][1]"
+        self.ENROLL = "//p[normalize-space()='Professional Journey']/following::a[@href='/signup'][1]"
 
     def logoCheck(self):
         try:
