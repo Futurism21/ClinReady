@@ -18,6 +18,23 @@ class BasePage:
             self.take_screenshot("navigation_error.png")
             raise
 
+    def get_current_url(self):
+        """
+        Returns the current URL of the page.
+        """
+        try:
+            current_url = self.page.url
+            self.logger.info(f"Current URL: {current_url}")
+            return current_url
+
+        except TimeoutError as e:
+            self.logger.error(f"Timeout occurred while fetching the current URL: {e}")
+            return None
+
+        except Exception as e:
+            self.logger.error(f"Failed to get the current URL: {e}")
+            return None
+
     def take_screenshot(self, filename: str):
         self.page.screenshot(path=filename)
 
