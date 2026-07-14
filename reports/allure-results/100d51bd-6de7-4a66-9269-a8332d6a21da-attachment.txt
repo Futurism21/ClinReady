@@ -1,0 +1,4 @@
+2026-07-14 12:42:27 - [INFO] - baseclass.py:14 - Navigating to URL: https://devhealthcareui.futurismdemo.com/
+2026-07-14 12:42:31 - [INFO] - baseclass.py:56 - Clicked element: //p[normalize-space()='Professional Journey']/following::a[@href='/signup'][1]
+2026-07-14 12:42:31 - [INFO] - baseclass.py:27 - Current URL: https://devhealthcareui.futurismdemo.com/signup
+2026-07-14 12:42:31 - [INFO] - test_home_page.py:26 - Enroll Now link navigation verified successfully.
