@@ -1,6 +1,8 @@
 from datetime import time
 
 from playwright.sync_api import Page
+
+
 from utils.logger_config import get_logger
 
 
@@ -18,6 +20,19 @@ class BasePage:
             self.take_screenshot("navigation_error.png")
             raise
 
+    def get_current_url(self):
+        """
+        Returns the current page URL.
+        """
+        try:
+            current_url = self.page.url
+            self.logger.info(f"Current URL: {current_url}")
+            return current_url
+
+        except Exception as e:
+            self.logger.error(f"Failed to get current URL. Error: {str(e)}")
+            raise Exception(f"Failed to get current URL: {str(e)}")
+
     def take_screenshot(self, filename: str):
         self.page.screenshot(path=filename)
 
@@ -30,6 +45,7 @@ class BasePage:
             self.logger.error(f"Error waiting for element {locator}: {str(e)}")
             self.take_screenshot("wait_error.png")
             raise
+
 
     def click_element(self, selector: str):
         try:
