@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment {
+        PYTHON = "C://Users//shubhamm//AppData//Local//Programs//Python//Python312//python.exe"
+    }
+
     stages {
 
         stage('Checkout') {
@@ -11,29 +15,26 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//python.exe" -m pip install --upgrade pip'
-                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//python.exe" -m pip install -r requirements.txt'
-                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//Scripts//playwright.exe" install'
-                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//Scripts//pytest.exe"'
-
+                bat '"%PYTHON%" -m pip install --upgrade pip'
+                bat '"%PYTHON%" -m pip install -r requirements.txt'
             }
         }
 
         stage('Install Playwright Browsers') {
             steps {
-                bat 'playwright install'
+                bat '"%PYTHON%" -m playwright install'
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'pytest --html=reports/report.html'
+                bat '"%PYTHON%" -m pytest --html=reports/report.html'
             }
         }
 
         stage('Archive Reports') {
             steps {
-                archiveArtifacts artifacts: 'reports/**', fingerprint: true
+                archiveArtifacts artifacts: 'reports/**/*', fingerprint: true
             }
         }
     }
