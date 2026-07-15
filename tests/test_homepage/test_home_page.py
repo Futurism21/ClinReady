@@ -6,7 +6,7 @@ import pytest
 
 from conftest import page
 from pages.homepage.home_page import HomePage
-from pages.loginpage.login_page import LoginPageClass
+# from pages.loginpage.login_page import LoginPageClass
 from utils.constants import EMAIL, PASSWORD, APPLICATION_URL
 from utils.excelimport import ExcelUtils
 from utils.logger_config import get_logger
