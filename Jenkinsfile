@@ -11,8 +11,11 @@ pipeline {
 
         stage('Install Dependencies') {
             steps {
-                bat 'python -m pip install --upgrade pip'
-                bat 'pip install -r requirements.txt'
+                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//python.exe" -m pip install --upgrade pip'
+                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//python.exe" -m pip install -r requirements.txt'
+                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//Scripts//playwright.exe" install'
+                bat '"C://Users//shubhamm//AppData//Local//Programs//Python//Python312//Scripts//pytest.exe"'
+
             }
         }
 
