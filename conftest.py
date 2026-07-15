@@ -6,7 +6,7 @@ from datetime import datetime
 from playwright.sync_api import sync_playwright, Page
 
 from pages.homepage.home_page import HomePage
-from pages.loginpage.login_page import LoginPageClass
+# from pages.loginpage.login_page import LoginPageClass
 from utils.constants import APPLICATION_URL, EMAIL, PASSWORD
 from utils.excelimport import ExcelUtils
 
@@ -68,12 +68,12 @@ def home_page(page: Page):
 #     return login_page_instance
 
 
-@pytest.fixture(scope="function")
-def logged_in_page(page: Page):
-    login_instance = LoginPageClass(page)
-    login_instance.navigate_to(APPLICATION_URL)
-    login_instance.login(EMAIL, PASSWORD)
-    return page
+# @pytest.fixture(scope="function")
+# def logged_in_page(page: Page):
+#     login_instance = LoginPageClass(page)
+#     login_instance.navigate_to(APPLICATION_URL)
+#     login_instance.login(EMAIL, PASSWORD)
+#     return page
 
 
 # -------------------------------
